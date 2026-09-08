@@ -55,25 +55,6 @@ This configuration is optimized and visually tailored to support a wide array of
 
 This environment utilizes a customized variation of the sleek **[Dark Matter GRUB Theme](https://github.com)**. 
 
-### Installation Instructions
-
-To install and align the assets with the structural overrides defined in `ventoy.json`, mount your Ventoy drive and run the following placement commands:
-
-```bash
-# Move the core theme directory to Ventoy's asset path
-mv darkmatter-grub2-theme/dark-matter /mnt/ventoy/theme/
-
-# Apply specific progress bar configuration overrides
-mv darkmatter-grub2-theme/assests/progressbar/linux_pb.png /mnt/ventoy/theme/dark-matter/progress_highlight_c.png
-
-# Swap in the default system background canvas
-mv darkmatter-grub2-theme/assests/backgrounds/linux.png /mnt/ventoy/theme/dark-matter/background.png
-
-# Deploy the high-resolution color icon pack
-mv darkmatter-grub2-theme/assests/icons/color /mnt/ventoy/theme/dark-matter/icons
-```
-
----
 
 ## ⚙️ Configuration File (`ventoy.json`)
 
