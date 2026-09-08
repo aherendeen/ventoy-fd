@@ -1,0 +1,35 @@
+# Ventoy - Keep config files tracked, ignore all boot media & disk images
+*.iso
+*.img
+*.vhd
+*.vhdx
+*.vdi
+*.qcow2
+*.wim
+*.esd
+
+# Ignore subdirectories commonly used for payloads
+/iso/
+/ISOs/
+/images/
+/payloads/
+
+# Ventoy logs and auto-generated caches
+ventoy/log/
+ventoy/*.log
+
+# OS metadata & system volume clutter
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+System Volume Information/
+
+# Ventoy plugin persistence and VHD boot files (if you don't track them)
+*.dat
+*.vtoy
