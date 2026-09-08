@@ -1,0 +1,30 @@
+{
+  "control": [
+    { "VTOY_DEFAULT_MENU_MODE": "0" }
+  ],
+  "theme": {
+    "file": "/ventoy/theme/dark-matter/theme.txt",
+    "display_mode": "GUI",
+    "gfxmode": "1920x1080",
+    "fonts": [
+      "/ventoy/theme/dark-matter/JetBrainsMono_Bold_15.pf2",
+      "/ventoy/theme/dark-matter/JetBrainsMono_Bold_17.pf2"
+    ]
+  },
+  "menu_class": [
+    { "parent": "/iso/linux/ubuntu", "class": "ubuntu" },
+    { "parent": "/iso/linux/debian", "class": "debian" },
+    { "parent": "/iso/linux/cachyos", "class": "cachyos" },
+    { "parent": "/iso/linux/pclinux", "class": "pclinux" },
+    { "parent": "/iso/linux/fedora", "class": "fedora" },
+    { "parent": "/iso/linux/mxlinux", "class": "mxlinux" },
+    { "parent": "/iso/linux/mint", "class": "linuxmint" },
+    { "parent": "/iso/linux/alpine", "class": "alpine" },
+    { "parent": "/iso/linux/sysrescd", "class": "SystemRescueCD" },
+    { "parent": "/iso/linux/arch", "class": "archlinux" },
+    { "parent": "/iso/linux", "class": "linux" },
+    { "parent": "/iso/winPE", "class": "WinPE" },
+    { "parent": "/iso/windows", "class": "Windows" },
+    { "parent": "/iso/utilities", "class": "Utilities" }
+  ]
+}
